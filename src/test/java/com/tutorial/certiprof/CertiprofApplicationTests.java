@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.ui.ExtendedModelMap;
 import org.springframework.ui.Model;
 
-import com.tutorial.certiprof.controller.GreetingController;
+import com.tutorial.certiprof.controller.GreetingControllerFail;
 
 
 @RunWith(SpringRunner.class)
@@ -30,7 +30,7 @@ public class CertiprofApplicationTests {
     HttpServletResponse response;   
 
     @InjectMocks
-    private GreetingController greetingController;
+    private GreetingControllerFail greetingController;
 
 	@Test
 	public void greetingTest() {		
